@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* nav {
+  background-color: #3359ec;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+} */
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #0c9bff;
+  font-weight: 500;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header#inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #0c9bff;
+
+}
+
+header#inicio div#img-viki {
+  display: flex;
+  justify-content: center;
+}
+
+header#inicio div p {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 4vw;
+}
+
+header#inicio div#img-viki img {
+  width: 70%;
+  margin-right: 4vw;
+}
+
+section#dicas {
+  padding: 5rem 10rem 10rem 10rem;
+  background-color: #fff;
+}
+
+section#dicas h2{
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 2rem;
+  color: #0c9bff;
+}
+
+section#dicas ul li {
+  padding: 1.5rem;
+  color: #0c9bff;
+}
+
+section#recomendacao {
+  text-align: center;
+  padding: 5rem;
+  background-color: #0c9bff;
+}
+
+section#recomendacao div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#recomendacao h2{
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+section#recomendacao div p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 4vw;
+}
+
+section#recomendacao div iframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vw;
+}
