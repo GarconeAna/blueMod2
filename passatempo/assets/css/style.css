@@ -6,26 +6,6 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* nav {
-  background-color: #3359ec;
-  padding: 1rem;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  padding: 1rem;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-} */
-
 html{
   scroll-behavior: smooth;
 }
@@ -95,35 +75,30 @@ section#dicas ul li {
   color: #0c9bff;
 }
 
-section#recomendacao {
+section.series {
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 5rem;
   background-color: #0c9bff;
 }
 
-section#recomendacao div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section#recomendacao h2{
+section.series div h3{
   text-align: center;
-  font-size: 2.5vw;
-  margin-bottom: 2rem;
+  font-size: 2vw;
   color: #fff;
 }
 
-section#recomendacao div p {
+section.series div p {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  padding: 4vw;
+  padding: 2vw;
 }
 
-section#recomendacao div iframe{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4vw;
+section.series div.video iframe{
+  padding: 3vw;
+  width: 35vw;
+  height: 23vw;
 }
+
