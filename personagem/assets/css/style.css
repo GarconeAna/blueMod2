@@ -10,63 +10,39 @@ html{
   scroll-behavior: smooth;
 }
 
-nav {
-  background-color: #6D8BA6;
-  font-weight: 500;
-  position: fixed;
-  width: 100%;
-}
-
-nav ul {
-  list-style: none;
+header {
+  background-image: url('../img/skywalker.png'); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  height: 200px;
   display: flex;
-  justify-content: center;
-}
-
-nav ul li {
-  padding: 1rem;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-header#inicio {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 9rem;
-  background-color: #6D8BA6;
-
 }
 
-header#inicio h1 {
-  font-size: 2.5vw;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-}
 
-section.personagem {
+section#personagem {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  background-color: #D8E3F2;
+  background-color: #000;
 }
 
-section.personagem div#img-botao img{
+section#personagem div#altera-momento h2{
+  color: #fee404;
+}
+
+section#personagem div#img img{
   display: block;
   margin: auto;
-  width: 70%;
   border-radius: .5rem;
 }
 
-section.personagem div#img-botao button{
-  border: 1px solid #6D8BA6;
-  background-color: #D8E3F2;
-  color: #6D8BA6;
+section#personagem div#altera-momento button{
+  border: 1px solid #000;
+  background-color: #fee404;
+  color: #000;
   padding: 1rem;
   font-size: .8vw;
   font-weight: 600;
@@ -78,8 +54,9 @@ section.personagem div#img-botao button{
   transition: .6s ease-out;
 }
 
-section.personagem div#img-botao button:hover {
-  background-color: #6D8BA6;
-  color: #fff;
+section#personagem div#altera-momento button:hover {
+  border: 1px solid #000;
+  background-color: #201F7E;
+  color: #000;
   transform: scale(1.2);
 }
