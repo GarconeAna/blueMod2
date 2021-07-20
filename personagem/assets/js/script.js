@@ -37,9 +37,9 @@ elementoBotao.addEventListener('click', () =>{
     elementoBotao.value = 'nono'
   } else if(elementoBotao.value == 'nono'){
     elementoImagem.src = './assets/img/luke-mortedopai.png'
-    elementoMomento.innerText = 'E então sua morte, seu filho o mata. Luke Skywalker, mata Anakin Skywalker.'
+    elementoMomento.innerText = 'E então sua morte, seu filho traz de volta Anakin Skywalker.'
     elementoBotao.value = 'decimo'
-  } else if(elementoBotao.value == 'decimo'){
+  } else {
     elementoImagem.src = './assets/img/anakin-bebe.jpg'
     elementoMomento.innerText = 'Anakin tem 9 anos de idade. A única pessoa que ele tem é a mãe e os dois são escravos.'
     elementoBotao.value = 'primeiro'
